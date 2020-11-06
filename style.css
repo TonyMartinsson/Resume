@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #0a0a0a; 
+    color: #8000ff;
+
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 0.05rem; 
+    font-size: 1.3rem;
+}
+::-webkit-scrollbar {
+
+    width: 0.24rem;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: linear-gradient(transparent,#8000ff);
+    border-radius: 20rem;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.marginTop{
+    margin-top: 20rem;
+}
+
+.marginBottom{
+    margin-bottom: 20rem;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 4rem;
+}
+
+footer i{
+    padding: 1rem 0.5rem;
+}
+
+.divider{
+    height: 40rem;
+    margin: 4rem 0rem;
+    
+    display: flex;
+    justify-content: center;
+}
+.line{
+    height: 100%;
+    width: 0.24rem;
+    
+    transition: height 1s;
+    
+    background-color: #fff;
+    border-radius: 20rem;
+    box-shadow: 
+      0 0 5px #fff, 
+      0 0 10px #fff, 
+      0 0 20px #8000ff, 
+      0 0 30px #8000ff, 
+      0 0 40px #8000ff, 
+      0 0 55px #8000ff, 
+      0 0 75px #8000ff;
+}
+
+
+/*Reusable classes*/
+  
+.centered {
+      
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.neon {
+    color: #fff;
+    
+    text-shadow: 
+      0 0 5px #fff, 
+      0 0 10px #fff, 
+      0 0 20px #8000ff, 
+      0 0 30px #8000ff, 
+      0 0 40px #8000ff, 
+      0 0 55px #8000ff, 
+      0 0 75px #8000ff;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+
+  /* Keyframes */
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
