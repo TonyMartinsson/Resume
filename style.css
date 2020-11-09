@@ -9,6 +9,7 @@ html, body {
     letter-spacing: 0.05rem; 
     font-size: 1.3rem;
 }
+
 ::-webkit-scrollbar {
 
     width: 0.24rem;
@@ -26,36 +27,37 @@ a, a:hover, a:focus, a:active {
     
 }
 
-.marginTop{
+.marginTop {
     margin-top: 20rem;
 }
 
-.marginBottom{
+.marginBottom {
     margin-bottom: 20rem;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: flex-start;
     padding-left: 4rem;
 }
 
-footer i{
+footer i {
     padding: 1rem 0.5rem;
 }
 
-.divider{
+.divider {
     height: 40rem;
     margin: 4rem 0rem;
     
     display: flex;
     justify-content: center;
 }
-.line{
-    height: 100%;
+
+.line {
+    height: 0%;
     width: 0.24rem;
     
-    transition: height 1s;
+    transition: height 650ms;
     
     background-color: #fff;
     border-radius: 20rem;
@@ -69,7 +71,6 @@ footer i{
       0 0 75px #8000ff;
 }
 
-
 /*Reusable classes*/
   
 .centered {
@@ -79,7 +80,7 @@ footer i{
     flex-direction: column;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -100,19 +101,73 @@ footer i{
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
+}
+
+.textFadeIn {
+    animation: textFadeIn ease 5s;
+    -webkit-animation: textFadeIn ease 5s;
+    -moz-animation: textFadeIn ease 5s;
+    -o-animation: textFadeIn ease 5s;
+    -ms-animation: textFadeIn ease 5s;
+    
+}
+
+/* Keyframes */
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes textFadeIn {
+    0% {
+      opacity: 0;
+  }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes textFadeIn {
+      0% {
+        opacity:0;
+        
+      }
+      100% {
+        opacity:1;
+      }
+    }
+    
+    @-o-keyframes textFadeIn {
+      0% {
+        opacity:0;
+        
+      }
+      100% {
+        opacity:1;
+      }
+    }
+    
+    @-ms-keyframes textFadeIn {
+      0% {
+        opacity:0;
+        
+      }
+      100% {
+        opacity:1;
+    }
   }
 
-  /* Keyframes */
 
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    60% {
-      transform: translateY(-15px);
-    }
-  }
+
+ 
+
 
