@@ -42,7 +42,22 @@ footer {
 }
 
 footer i {
-    padding: 1rem 0.5rem;
+    padding: 1rem 1rem;
+}
+
+footer i:hover{
+    color: #fff;
+    
+    text-shadow: 
+      0 0 5px #fff, 
+      0 0 10px #fff, 
+      0 0 20px #8000ff, 
+      0 0 30px #8000ff, 
+      0 0 40px #8000ff, 
+      0 0 55px #8000ff, 
+      0 0 75px #8000ff;
+
+      font-size: 3rem;
 }
 
 .divider {
