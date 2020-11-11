@@ -9,6 +9,7 @@ html, body {
     letter-spacing: 0.1rem; 
     font-size: 1.3rem;
 }
+/* Main content */
 
 ::-webkit-scrollbar {
 
@@ -35,6 +36,33 @@ a, a:hover, a:focus, a:active {
 .marginBottom {
     margin-bottom: 20rem;
 }
+
+.divider {
+  height: 40rem;
+  margin: 4rem 0rem;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  height: 0%;
+  width: 0.24rem;
+  
+  transition: height 650ms;
+  
+  background-color: #fff;
+  border-radius: 20rem;
+  box-shadow: 
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 20px #8000ff, 
+    0 0 30px #8000ff, 
+    0 0 40px #8000ff, 
+    0 0 55px #8000ff, 
+    0 0 75px #8000ff;
+}
+/* Footer */
 
 footer {
     display: flex;
@@ -67,32 +95,6 @@ footer i:hover{
   font-size: 0.7rem;
   color: white; 
   margin-left: 2rem;
-}
-
-.divider {
-    height: 40rem;
-    margin: 4rem 0rem;
-    
-    display: flex;
-    justify-content: center;
-}
-
-.line {
-    height: 0%;
-    width: 0.24rem;
-    
-    transition: height 650ms;
-    
-    background-color: #fff;
-    border-radius: 20rem;
-    box-shadow: 
-      0 0 5px #fff, 
-      0 0 10px #fff, 
-      0 0 20px #8000ff, 
-      0 0 30px #8000ff, 
-      0 0 40px #8000ff, 
-      0 0 55px #8000ff, 
-      0 0 75px #8000ff;
 }
 
 /*Reusable classes*/
