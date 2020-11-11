@@ -66,14 +66,12 @@ a, a:hover, a:focus, a:active {
 
 footer {
     display: flex;
-    
     align-items: baseline;
     padding-left: 2rem;
 }
 
 footer i {
-    padding: 2rem 1rem;
-    
+    padding: 2rem 1rem;  
 }
 
 footer i:hover{
@@ -88,7 +86,8 @@ footer i:hover{
       0 0 55px #8000ff, 
       0 0 75px #8000ff;
 
-      font-size: 3rem;
+      transform: rotatez(360deg);
+      transition: all 0.15s ease-in-out;
 }
 
 .footerText {
@@ -134,15 +133,6 @@ footer i:hover{
     animation: bounce 2s infinite;
 }
 
-.textFadeIn {
-    animation: textFadeIn ease 5s;
-    -webkit-animation: textFadeIn ease 5s;
-    -moz-animation: textFadeIn ease 5s;
-    -o-animation: textFadeIn ease 5s;
-    -ms-animation: textFadeIn ease 5s;
-    
-}
-
 /* Keyframes */
 
 @keyframes bounce {
@@ -158,12 +148,12 @@ footer i:hover{
 }
 
 @keyframes arrow {
-  from{
+  from {
     margin-top: -10rem;
     opacity: 0;
     
   }
-  to{
+  to {
     margin-top: 20rem;
     opacity: 1;
     transform: rotatez(360deg);
