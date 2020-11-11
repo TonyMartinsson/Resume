@@ -6,7 +6,7 @@ html, body {
     color: #8000ff;
 
     font-family: 'Roboto Mono', monospace;
-    letter-spacing: 0.05rem; 
+    letter-spacing: 0.1rem; 
     font-size: 1.3rem;
 }
 
@@ -37,12 +37,14 @@ a, a:hover, a:focus, a:active {
 
 footer {
     display: flex;
-    justify-content: flex-start;
-    padding-left: 4rem;
+    
+    align-items: baseline;
+    padding-left: 2rem;
 }
 
 footer i {
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
+    
 }
 
 footer i:hover{
@@ -58,6 +60,12 @@ footer i:hover{
       0 0 75px #8000ff;
 
       font-size: 3rem;
+}
+
+.footerText {
+  font-size: 0.7rem;
+  color: white; 
+  margin-left: 2rem;
 }
 
 .divider {
@@ -97,6 +105,7 @@ footer i:hover{
 
 .text-center {
     text-align: center;
+
 }
 
 .neon {
@@ -110,6 +119,10 @@ footer i:hover{
       0 0 40px #8000ff, 
       0 0 55px #8000ff, 
       0 0 75px #8000ff;
+}
+
+.textFadeIn {
+  opacity: 0;
 }
 
 .bounce {
