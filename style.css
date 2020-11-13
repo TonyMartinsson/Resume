@@ -7,7 +7,7 @@ html, body {
 
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0.1rem; 
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 /* Main content */
 
@@ -47,7 +47,7 @@ a, a:hover, a:focus, a:active {
 
 .line {
   height: 0%;
-  width: 0.24rem;
+  width: 0.3rem;
   
   transition: height 650ms;
   
@@ -93,7 +93,7 @@ footer i:hover{
 }
 
 .footerText {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: white; 
   margin-left: 2rem;
 }
@@ -158,11 +158,77 @@ footer i:hover{
   to {
     margin-top: 20rem;
     opacity: 1;
-    transform: rotatez(360deg);
   }
 }
 
+/* Media queries */
 
+@media (max-width: 64em) {
+  body {
+    font-size: 1.1rem;
+  }
+  
+  .line {
+    width: 0.2rem;
+  }
+  
+  .footerText {
+    font-size: 0.7rem;
+    margin-left: 1rem;
+  }
+}
+
+.text-center {
+  padding: 0rem 1rem;
+}
+
+@media (max-width: 48em) {
+  body {
+    font-size: 0.9rem;
+  }
+  
+  .line {
+    width: 0.17rem;
+  }
+
+  .divider {
+    height: 25rem;
+  }
+  
+  .footerText {
+    font-size: 0.5rem;
+  }
+
+  footer {
+    padding-left: 1rem;
+  }
+
+  footer i {
+    padding: 2rem 0.5rem;  
+}
+  
+.marginTop {
+    margin-top: 10rem;
+  }
+  .marginBottom {
+    margin-bottom: 10rem;
+  }
+
+  .text-center {
+    padding: 0rem 1rem;
+  }
+  @keyframes arrow {
+    from {
+      margin-top: -10rem;
+      opacity: 0;
+      
+    }
+    to {
+      margin-top: 10rem;
+      opacity: 1;
+    }
+  }
+}
   
 
 
