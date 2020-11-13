@@ -9,7 +9,7 @@ html, body {
     letter-spacing: 0.1rem; 
     font-size: 1.5rem;
 }
-/* Main content */
+/* Scroll */
 
 ::-webkit-scrollbar {
 
@@ -21,6 +21,8 @@ html, body {
     background: linear-gradient(transparent,#8000ff);
     border-radius: 20rem;
 }
+
+/* Main content */
 
 a, a:hover, a:focus, a:active {
     text-decoration: none;
@@ -186,6 +188,11 @@ footer i:hover{
   body {
     font-size: 0.9rem;
   }
+
+  ::-webkit-scrollbar {
+
+    width: 0.1rem;
+}
   
   .line {
     width: 0.17rem;
