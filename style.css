@@ -79,8 +79,9 @@ footer i {
 }
 
 footer i:hover{
-    color: #fff;
-    
+  display: inline-block;
+  
+  color: #fff;
     text-shadow: 
       0 0 5px #fff, 
       0 0 10px #fff, 
@@ -212,7 +213,7 @@ footer i:hover{
 
   footer i {
     padding: 2rem 0.5rem;  
-}
+  }
   
 .marginTop {
     margin-top: 10rem;
