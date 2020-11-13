@@ -235,9 +235,28 @@ footer i:hover{
       margin-top: 10rem;
       opacity: 1;
     }
+  
   }
 }
+@media (max-width: 26em) {
+  body {
+    font-size: 0.6rem;
+  }
+
+  .footerText{
+    font-size: 0.3rem;
+    margin-left: 0rem;
+  }
+
+  footer {
+    padding-left: 0rem;
+  }
+
+  footer i {
+    padding: 2rem 0.4rem;  
+  }
   
+}
 
 
 
